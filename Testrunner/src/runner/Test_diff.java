@@ -14,6 +14,7 @@ public class Test_diff {
 @Test
 public void testsub()
 {
+	//branching
 	Arithmetic obj1 = new Arithmetic (22,55,66);
 	Assert.assertEquals(143, obj1.add());
 }
