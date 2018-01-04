@@ -30,6 +30,7 @@ public class Arithmetic {
 		Arithmetic diff= new Arithmetic(58,11,66);
 		System.out.println("Addition:" + diff.add());
 		System.out.println("Subtraction:" + sum.subt());
+		//yhdujhd
 	
 	}
 
