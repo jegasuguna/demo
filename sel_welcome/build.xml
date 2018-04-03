@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="newproject" default="run"
+	basedir="D:\SG\sel_welcome">
+	<path id="selenium">
+		<fileset dir="D:\selenium">
+		<include name="**/*.jar" />
+		<include name="client*.jar"/>
+		</fileset>
+	</path>
+<target name="javc">
+<javac srcdir="D:\SG\sel_welcome\src\welcome" destdir="D:\SGE">
+
+<classpath refid="selenium" />
+
+</javac>
+</target>
+	<target name="jar">
+		 <jar destfile="D:/QWERT/abc.jar" basedir="D:\SGE">
+		 <manifest>
+		 <attribute name="Main-Class" value="welcome.LandingPage"/>
+		 </manifest>
+		 </jar>
+	</target>
+	<target name="run">
+	<java classname="welcome.LandingPage">
+	<classpath>
+	           <pathelement location="D:/QWERT/abc.jar"/>
+	           <path refid="selenium"/>
+	</classpath>
+			</java>
+</target> 
+</project>
