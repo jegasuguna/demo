@@ -8,7 +8,7 @@
 		</fileset>
 	</path>
 <target name="javc">
-<javac srcdir="D:\SG\sel_welcome\src\welcome" destdir="D:\SGE">
+<javac srcdir="D:\suguna\demo\sel_welcome\src\welcome" destdir="D:\SGE">
 
 <classpath refid="selenium" />
 
