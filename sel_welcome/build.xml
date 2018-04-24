@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="newproject" default="run"
-	basedir="D:\SG\sel_welcome">
+	basedir="D:\suguna\demo\sel_welcome">
 	<path id="selenium">
 		<fileset dir="D:\selenium">
 		<include name="**/*.jar" />
